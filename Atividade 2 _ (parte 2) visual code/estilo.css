@@ -1,0 +1,201 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+#cabecalho{
+background: #18181c;
+width: 320px; 
+text-align: center;
+}
+
+#logo{ padding: 30px;
+    cursor: pointer;
+}
+#lista {
+height: 400px;
+padding-right:150px;
+
+}
+
+li{
+    position: relative;
+    padding: 15px;
+    top: 40px;
+    color: white;
+    left:0px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer; 
+    width:100px;
+    text-align: left;
+    
+}
+li:hover{
+    background-color:#99896e; 
+}
+
+#cabecalho2{ 
+    background: #18181c;
+    width: 320px;
+    text-align: center;
+}
+
+#filtro{
+    position: relative;
+    color: #99896e;
+    font-size: 17px;
+    left: 20px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    top: 20px;
+}
+
+#lista2{
+    height: 750px;
+    padding-right:150px;
+}
+
+#imagem{
+position: absolute;
+left: 365px;
+bottom: 140px;
+}
+
+#imagemposition{
+    display: inline-block;
+   width: 390px;
+}
+#imagem2{
+    position: absolute;
+    left: 755px;
+    bottom: 550px;
+    
+}
+
+#imagemposition2{
+    display: inline-block;
+    width: 740px;
+ 
+}
+
+#imagem3{
+position: absolute;
+left: 1495px;
+bottom: 550px;
+}
+
+#imagemposition3{
+display: inline-block;
+width: 370px;
+}
+
+#imagem4{
+    position: absolute;
+    left: 755px;
+    bottom: 140px;
+}
+
+#imagemposition4 {
+    display: inline-block;
+    width: 355px;
+    height: 410px;
+}
+
+#imagem5 {
+    position: absolute;
+    left: 1110px;
+    bottom: 140px;
+}
+
+#imagemposition5 {
+    display: inline-block;
+width: 385px;
+height: 410px;
+
+}
+
+#imagem6 {
+    position: absolute;
+    left: 1495px;
+    bottom: 140px;
+}
+
+#imagemposition6 {
+    display: inline-block;
+    width: 370px;
+    height: 410px;
+}
+
+#imagem7 {
+    position: absolute;
+    left: 365px;
+    top: 835px;
+}
+
+#imagemposition7 {
+    display: inline-block;
+    width: 390px;
+
+}
+
+#imagem8 {
+    position: absolute;
+    top: 835px;
+    left: 755px;
+}
+
+#imagemposition8 {
+    display: inline-block;
+    width: 355px;
+    height: 390px;
+}
+
+#imagem9 {
+    position: absolute;
+    top: 835px;
+    left: 1110px;
+}
+
+#imagemposition9 {
+    display: inline-block;
+    width: 755px;
+    height: 390px;
+}
+
+.bege {
+    background: #99896e;
+}
+
+.positionp{
+width: 20%;
+}
+
+.imagemgif{
+cursor: pointer;
+}
+
+#credito{
+font-size: 12px;
+color: #99896e;
+position: relative;
+bottom: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+padding: 15px;
+}
+
+img {
+    transition: 0.4s;
+}
+
+.ima img:hover {
+ cursor: crosshair;
+ filter: brightness(0.4);
+}
+
